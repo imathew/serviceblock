@@ -115,7 +115,7 @@ def generate_blocklist(svc_data):
 
     output = [
         "[Adblock Plus]",
-        "! Title: darling.casa serviceblock",
+        "! Title: ServiceBlock",
         f"! Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}",
         f"! Source: {URL}",
         "!",
