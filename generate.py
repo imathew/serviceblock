@@ -90,7 +90,7 @@ def sync_services_txt(svc_data):
 
 
 def generate_blocklist(svc_data):
-    """Generate blocklist.txt from active entries in services.txt."""
+    """Generate blocklist.txt (ABP) and wildcardlist.txt (Blocky) from active entries."""
     active_ids = read_active_ids()
 
     rules = sorted({
@@ -112,11 +112,13 @@ def generate_blocklist(svc_data):
         if svc["id"] not in active_ids
     )
     rule_count = len(rules)
+    timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
-    output = [
+    # 1. ABP Format (blocklist.txt)
+    output_abp = [
         "[Adblock Plus]",
         "! Title: ServiceBlock",
-        f"! Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}",
+        f"! Generated: {timestamp}",
         f"! Source: {URL}",
         "!",
         f"! Blocking: {blocking_names} ({rule_count} rules)",
@@ -126,8 +128,37 @@ def generate_blocklist(svc_data):
         *rules,
         "",
     ]
+    Path("blocklist.txt").write_text("\n".join(output_abp))
 
-    Path("blocklist.txt").write_text("\n".join(output))
+    # 2. Wildcard Format (wildcardlist.txt)
+    def to_wildcard(rule):
+        # Remove trailing ^
+        rule = rule.rstrip('^')
+        # Replace || with *.
+        if rule.startswith('||'):
+            rule = '*.' + rule[2:]
+        # Remove leading |
+        elif rule.startswith('|'):
+            rule = rule[1:]
+        return rule
+
+    wildcard_rules = sorted({to_wildcard(r) for r in rules})
+
+    output_wildcard = [
+        "# Title: ServiceBlock",
+        f"# Generated: {timestamp}",
+        f"# Source: {URL}",
+        "# Syntax: Domains (wildcards)",
+        "#",
+        f"# Blocking: {blocking_names} ({rule_count} rules)",
+        "#",
+        f"# Not blocking: {not_blocking_names}",
+        "#",
+        *wildcard_rules,
+        "",
+    ]
+    Path("wildcardlist.txt").write_text("\n".join(output_wildcard))
+
     print(f"Generated {rule_count} rules for {len(found)} services")
 
 
