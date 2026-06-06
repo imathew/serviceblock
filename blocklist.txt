@@ -1,6 +1,6 @@
 [Adblock Plus]
 ! Title: ServiceBlock
-! Generated: 2026-06-05T19:32:08Z
+! Generated: 2026-06-06T19:29:12Z
 ! Source: https://adguardteam.github.io/HostlistsRegistry/assets/services.json
 !
 ! Blocking: 4chan, 500px, 9GAG, AliExpress, Amino, Betano, Betfair, Betway, Bigo Live, Bilibili, Blaze, Bluesky, Clubhouse, CoolApk, Dailymotion, DeepSeek, Discord, Douban, Flickr, Grok, Imgur, Instagram, iQIYI, KakaoTalk, Kik, KOOK, Lazada, LINE, LinkedIn, Mail.ru, Mastodon, MAX, Mercado Libre, Odysee, OK.ru, Olvid, OnlyFans, Pinterest, Plenty of Fish, Privacy, QQ, Reddit, Shein, Shopee, Signal, Skype, Slack, Snapchat, Telegram (Web), Temu, TikTok, Tinder, Tumblr, Twitch, X (formerly Twitter), Viber, VK.com, WeChat, Weibo, WhatsApp, Wizz, Xiaohongshu, YouTube, YY, Zhihu (828 rules)
