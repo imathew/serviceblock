@@ -1,11 +1,11 @@
 [Adblock Plus]
 ! Title: ServiceBlock
-! Generated: 2026-07-30T19:29:01Z
+! Generated: 2026-07-31T19:29:05Z
 ! Source: https://adguardteam.github.io/HostlistsRegistry/assets/services.json
 !
 ! Blocking: 4chan, 500px, 9GAG, AliExpress, Amino, Betano, Betfair, Betway, Bigo Live, Bilibili, Blaze, Bluesky, Clubhouse, CoolApk, Dailymotion, DeepSeek, Discord, Douban, Flickr, Grok, Imgur, Instagram, iQIYI, KakaoTalk, Kik, KOOK, Lazada, LINE, LinkedIn, Mail.ru, Mastodon, MAX, Mercado Libre, Odysee, OK.ru, Olvid, OnlyFans, Pinterest, Plenty of Fish, Privacy, QQ, Reddit, Shein, Shopee, Signal, Skype, Slack, Snapchat, Telegram (Web), Temu, TikTok, Tinder, Tumblr, Twitch, X (formerly Twitter), Viber, VK.com, WeChat, Weibo, WhatsApp, Wizz, Xiaohongshu, YouTube, YY, Zhihu (828 rules)
 !
-! Not blocking: Activision Blizzard, Amazon, Amazon Streaming, Apple Streaming, Battle.net, Blizzard Entertainment, Box, Canais Globo, ChatGPT, Claro, Claude, Cloudflare, Copilot, Crunchyroll, Deezer, DirecTV Go, Discovery+, Disney+, Dropbox, eBay, Electronic Arts, Epic Games, ESPN, Facebook, FIFA, Gemini, Globoplay, GOG, Google Play Store, HBO Max, Hulu, iCloud Private Relay, iHeartRadio, IO Interactive, League of Legends, Lionsgate+, Looke, Manus, Meta AI, Microsoft Teams, Minecraft, Nebula, Netflix, Nintendo, Nvidia, Origin, Paramount Plus, Peacock TV, Perplexity, PlayStation, Plex, Pluto TV, Proton, Rakuten Viki, Riot Games, Roblox, Rockstar Games, Samsung TV Plus, SoundCloud, Spotify, Spotify Video, Steam, Tidal, Ubisoft, Valorant, Vimeo, Vivo Play, Voot, Wargaming, Warner Bros. Games, Xbox Live
+! Not blocking: Activision Blizzard, Amazon, Amazon Streaming, Apple Streaming, Battle.net, Blizzard Entertainment, Box, Canais Globo, ChatGPT, Claro, Claude, Cloudflare, Copilot, Crunchyroll, Deezer, DirecTV Go, Discovery+, Disney+, Dropbox, eBay, Electronic Arts, Epic Games, ESPN, Facebook, FIFA, Gemini, Globoplay, GOG, Google Play Store, Grindr, HBO Max, Hulu, iCloud Private Relay, iHeartRadio, IO Interactive, League of Legends, Lionsgate+, Looke, Manus, Meta AI, Microsoft Teams, Minecraft, Nebula, Netflix, Nintendo, Nvidia, Origin, Paramount Plus, Peacock TV, Perplexity, PlayStation, Plex, Pluto TV, Proton, Rakuten Viki, Riot Games, Roblox, Rockstar Games, Samsung TV Plus, SoundCloud, Spotify, Spotify Video, Steam, Tidal, Ubisoft, Valorant, Vimeo, Vivo Play, Voot, Wargaming, Warner Bros. Games, Xbox Live
 !
 |hammerandchisel.ssl.zendesk.com^
 |upos-hz-mirrorakam.akamaized.net^
