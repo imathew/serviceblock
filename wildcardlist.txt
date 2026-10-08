@@ -1,5 +1,5 @@
 # Title: ServiceBlock
-# Generated: 2026-10-07T23:23:08Z
+# Generated: 2026-10-08T23:36:06Z
 # Source: https://adguardteam.github.io/HostlistsRegistry/assets/services.json
 # Syntax: Domains (wildcards)
 #
